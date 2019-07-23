@@ -23,10 +23,13 @@
       "@/*": [
         "./*"
       ]
-    },
-    "types": [
-      "@types/node",
-      "@nuxt/vue-app"
-    ]
-  }
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
